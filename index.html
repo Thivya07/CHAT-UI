@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram Chat UI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white">
+
+<!-- APP CONTAINER -->
+<div class="max-w-md mx-auto h-screen flex flex-col">
+
+  <!-- HEADER -->
+  <div class="flex items-center justify-between px-4 py-3 border-b border-gray-800">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 bg-gray-600 rounded-full"></div>
+      <div>
+        <p class="font-semibold text-sm">Monish ✨</p>
+        <p class="text-xs text-gray-400">@monish_senthil_</p>
+      </div>
+    </div>
+
+    <div class="flex gap-4 text-xl">
+      <span>📞</span>
+      <span>🎥</span>
+    </div>
+  </div>
+
+  <!-- CHAT AREA -->
+  <div class="flex-1 px-4 py-4 space-y-4 overflow-y-auto">
+
+    <!-- Receiver -->
+    <div class="flex items-start gap-2">
+      <div class="w-8 h-8 bg-gray-600 rounded-full"></div>
+      <div class="bg-gray-800 px-4 py-2 rounded-2xl text-sm max-w-xs">
+        ....
+      </div>
+    </div>
+
+    <!-- Sender -->
+    <div class="flex justify-end">
+      <div class="bg-gradient-to-r from-purple-500 to-pink-500 px-4 py-2 rounded-2xl text-sm max-w-xs">
+        Haaaan haaa
+      </div>
+    </div>
+
+    <!-- Emojis -->
+    <div class="flex items-start gap-2">
+      <div class="w-8 h-8 bg-gray-600 rounded-full"></div>
+      <div class="text-2xl">😂😂😂</div>
+    </div>
+
+    <!-- Receiver -->
+    <div class="flex items-start gap-2">
+      <div class="w-8 h-8 bg-gray-600 rounded-full"></div>
+      <div class="bg-gray-800 px-4 py-2 rounded-2xl text-sm">
+        Nalla iruka
+      </div>
+    </div>
+
+    <!-- Sender -->
+    <div class="flex justify-end">
+      <div class="bg-gradient-to-r from-purple-500 to-pink-500 px-4 py-2 rounded-2xl text-sm">
+        haan Nalla iruuku 😂
+      </div>
+    </div>
+
+    <!-- Receiver -->
+    <div class="flex items-start gap-2">
+      <div class="w-8 h-8 bg-gray-600 rounded-full"></div>
+      <div class="bg-gray-800 px-4 py-2 rounded-2xl text-sm">
+        Sollu nalla iruka
+      </div>
+    </div>
+
+    <!-- Sender -->
+    <div class="flex justify-end">
+      <div class="bg-gradient-to-r from-purple-500 to-pink-500 px-4 py-2 rounded-2xl text-sm">
+        Nejama tha nalla iruku 💜
+      </div>
+    </div>
+
+  </div>
+
+  <!-- INPUT BAR -->
+  <div class="px-4 py-3 border-t border-gray-800 flex items-center gap-3">
+    <div class="w-9 h-9 bg-pink-500 rounded-full flex items-center justify-center">
+      📷
+    </div>
+
+    <input
+      type="text"
+      placeholder="Message..."
+      class="flex-1 bg-gray-900 text-sm px-4 py-2 rounded-full focus:outline-none"
+    />
+
+    <span class="text-xl">😊</span>
+    <span class="text-xl">➕</span>
+  </div>
+
+</div>
+
+</body>
+</html>
